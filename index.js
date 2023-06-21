@@ -32,6 +32,7 @@ console.log(selectedColors);
 console.log(selectedColors[1]);
 //Adding elements to an Array
 selectedColors[3] = "4";
+console.log(selectedColors);
 console.log(selectedColors.length);
 //Fucntions syntax
 //In the case below name is a parameter
@@ -40,7 +41,15 @@ console.log(selectedColors.length);
 //Laura is an argument to the greet function
 // name is a parameter to the greet function
 // a function can have multiple parameters
+// The function below is perfoming a task
 function greet(name, lastName) {
   console.log("Hello " + name + " " + lastName);
 }
 greet("Laura", "Shaky");
+// function that calculates a value
+function square(number) {
+  return number * number;
+}
+
+console.log(square(2));
+// a function is a set of statements that either perfoms a task or calculates a value.
