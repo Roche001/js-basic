@@ -12,7 +12,7 @@ console.log(interestRate);
 let name = "Laura"; //string literal
 let age = 26; // Number literals
 let isApproved = false; // boolean
-let firstNaame = undefined;
+let firstNaame = undefined; // undefined values
 let selectColor = null; // null is used in situations where we want clear the value of a variable
 // JS is a dynamic programming language because the type of a variable can change at runtime
 // Objects
@@ -35,7 +35,7 @@ selectedColors[3] = "4";
 console.log(selectedColors);
 console.log(selectedColors.length);
 //Fucntions syntax
-//In the case below name is a parameter
+//In the case below name and lastName are parameters
 // Parameters are essentially variables
 //Parameters are only meaningful inside the function signature
 //Laura is an argument to the greet function
@@ -52,4 +52,24 @@ function square(number) {
 }
 
 console.log(square(2));
+
 // a function is a set of statements that either perfoms a task or calculates a value.
+//Incrementing numbers
+// Use ++ to increment(+1)
+// example
+let myVar = 87;
+myVar++;
+console.log(myVar);
+//Decrementing numbers (-1)
+let myMinus = 33;
+myMinus--;
+console.log(myMinus);
+// Remainder (%); number remaining after dividing two numbers.
+document.getElementById("p1").innerHTML = "Hello " + name;
+
+document.getElementById("p2").innerHTML = "How are you " + name;
+
+document.getElementById("p3").innerHTML = "Let's talk " + name;
+// accepting user          input
+//let userName = window.prompt("What do you want");
+//console.log(userName);
